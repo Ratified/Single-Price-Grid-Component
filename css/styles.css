@@ -1,0 +1,102 @@
+/* Fonts Used */
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+/* Reset CSS */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+img, svg, picture {
+  display: block;
+  max-width: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* General Styling */
+/* Variables */
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.card1, .card2, .card3 {
+  display: grid;
+  gap: 1rem;
+  padding: 2rem;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 5px 0px 100px solid black;
+}
+
+.card1 {
+  background-color: hsl(0, 0%, 100%);
+}
+.card1 h1 {
+  color: hsl(179, 62%, 43%);
+}
+.card1 h2 {
+  color: hsl(71, 73%, 54%);
+}
+.card1 p {
+  color: hsl(218, 22%, 67%);
+}
+
+.card2 {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+.card2 h3 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card2 h3 span {
+  font-size: 2rem;
+}
+.card2 h3 p {
+  opacity: 0.5;
+}
+
+.card3 {
+  background-color: hsl(179, 62%, 52%);
+  color: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 400px) {
+  .card2-3 {
+    display: flex;
+  }
+}
+@media (max-width: 400px) {
+  .cards {
+    margin: 1rem 1rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
