@@ -48,6 +48,11 @@ body{
     background-color: $Light-Gray;
 }
 
+.cards{
+    width: 100%;
+    max-width: 750px;
+}
+
 .card1, .card2, .card3{
     display: grid;
     gap: 1rem;
